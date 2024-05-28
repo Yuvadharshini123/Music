@@ -44,8 +44,5 @@ public class TransactionDetails {
 	public void setAmount(Integer amount) {
 		this.amount = amount;
 	}
-	@Override
-	public String toString() {
-		return "TransactionDetails [orderId=" + orderId + ", currency=" + currency + ", amount=" + amount + "]";
-	}
+
 }

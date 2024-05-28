@@ -19,7 +19,7 @@ import jakarta.persistence.Table;
 public class Course {
 	@Id
 	@Column(name="Course_id")
-	 @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "music_tb_seq")
+	  @GeneratedValue(strategy = GenerationType.IDENTITY)
 
 	private Long id;
 	
